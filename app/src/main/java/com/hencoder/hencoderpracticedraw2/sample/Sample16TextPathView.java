@@ -37,7 +37,7 @@ public class Sample16TextPathView extends View {
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
 
-        canvas.drawText(text, 50, 200, paint);
+        canvas.drawText(text, 200, 200, paint);
 
         canvas.drawPath(textPath, pathPaint);
     }
